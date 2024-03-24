@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+// calculator
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([{
         name: "firstNumber",
@@ -15,7 +16,7 @@ let answer = await inquirer.prompt([{
         type: 'list',
         message: 'Select one Operation',
         choices: ['add', 'sub', 'mul', 'div']
-    },
+    }
 ]);
 if ("add" === answer.Operator) {
     console.log(answer.firstNumber + answer.secondNumber);

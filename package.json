@@ -1,6 +1,7 @@
 {
   "name": "prz_calcltr",
-  "version": "1.0.1",
+  "version": "1.0.4",
+  
   "description": "Calculator",
   "main": "index.js",
   "type": "module",
